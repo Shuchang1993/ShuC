@@ -1,0 +1,9 @@
+learn git use notepad ,don't use microsoft.because microsoft will cause some problem
+
+1.git add . (add current context)
+git add -A(add all dirs)
+(or git add file1.txt file2.txt)
+
+2.git commit -m "****"
+
+3.git push

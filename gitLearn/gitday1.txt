@@ -1,9 +1,29 @@
 learn git use notepad ,don't use microsoft.because microsoft will cause some problem
 
-1.git add . (add current context)
-git add -A(add all dirs)
-(or git add file1.txt file2.txt)
 
-2.git commit -m "****"
 
-3.git push
+1.push task
+	1.git add . (add current context)
+	git add -A(add all dirs)
+	(or git add file1.txt file2.txt)
+
+	2.git commit -m "****"
+
+	3.git push
+	
+2.git rename
+	git config --global alias.co checkout
+	
+	
+3,git reset
+	git reset --hard {commit id} (or) git reset --hard HEAD^
+	(HEAD mean current version,HEAD^ mean last version,....HEAD~100 mean last 100 version)
+	
+	
+	
+	
+
+	
+tips 
+1.git checkout - (return last branch)
+2.git log  (or) git log --pretty=oneline
